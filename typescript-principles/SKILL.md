@@ -24,7 +24,9 @@ getUsers(pageSize, pageIndex);
 
 ## Error Logging
 
-When logging or creating errors, always include:
+Every real error path must use the project's structured error helper. This includes thrown errors, returned HTTP/OAuth/JSON errors, and error logs.
+
+Structured errors must include:
 
 - `status`
 - `message`
@@ -32,6 +34,23 @@ When logging or creating errors, always include:
 - `fix`
 
 The fields must be specific enough for an operator or developer to understand what happened, why it happened, and what action resolves it.
+
+Avoid:
+
+```ts
+throw new Error(`Auth0 metadata request failed with ${response.status}`);
+```
+
+Prefer:
+
+```ts
+throw createError({
+  status: 502,
+  message: "Auth0 metadata request failed",
+  why: `Auth0 returned status ${response.status} while loading OAuth metadata`,
+  fix: "Verify Auth0 is reachable and the issuer configuration is correct",
+});
+```
 
 ## Boolean Names
 
