@@ -1,11 +1,11 @@
 ---
-name: typescript-conventions
-description: Use when writing, reviewing, or refactoring TypeScript code to enforce naming, parameter, error logging, and file-context conventions.
+name: typescript-principles
+description: Use when writing, reviewing, or refactoring TypeScript code to apply naming, parameter, error logging, and file-context principles.
 ---
 
-# TypeScript Conventions
+# TypeScript Principles
 
-Apply these conventions when creating, reviewing, or refactoring TypeScript.
+Apply these principles when creating, reviewing, or refactoring TypeScript.
 
 ## Function Calls
 

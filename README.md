@@ -1,8 +1,10 @@
-# TypeScript Conventions Skill
+<p align="center">
+  <img src="assets/logo.svg" alt="Origami crane logo" width="180" />
+</p>
 
-Codex skills for TypeScript conventions and implementation review.
+<h1 align="center">Skills</h1>
 
 ## Skills
 
-- `typescript-conventions`: naming, parameter, boolean, and error logging conventions for TypeScript.
+- `typescript-principles`: naming, parameter, boolean, and error logging principles for TypeScript.
 - `deslop`: skeptical implementation review for fallbacks, regex pattern matching, and unnecessary custom code.

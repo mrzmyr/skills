@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Origami crane logo</title>
+  <desc id="desc">A folded paper crane inspired by the provided logo image.</desc>
+  <rect width="512" height="512" rx="104" fill="#F8FBFC"/>
+  <path d="M93 181L263 250L430 79L344 323L93 181Z" fill="#EAF2F5"/>
+  <path d="M93 181L263 250L202 353L93 181Z" fill="#D9E7ED"/>
+  <path d="M263 250L344 323L202 353L263 250Z" fill="#C6D9E2"/>
+  <path d="M344 323L455 420L269 367L202 353L344 323Z" fill="#E6F0F4"/>
+  <path d="M344 323L430 79L393 334L455 420L344 323Z" fill="#D7E5EB"/>
+  <path d="M93 181L43 105L122 136L263 250L93 181Z" fill="#F2F7F9"/>
+  <path d="M93 181L44 300L121 241L202 353L93 181Z" fill="#E0ECF1"/>
+  <path d="M122 136L44 300L93 181L43 105L122 136Z" fill="#D2E1E8"/>
+  <path d="M202 353L269 367L185 411L121 241L202 353Z" fill="#B8CED8"/>
+  <path d="M121 241L185 411L155 407L44 300L121 241Z" fill="#D8E6EC"/>
+  <path d="M263 250L269 367L202 353L263 250Z" fill="#EEF5F7"/>
+  <path d="M430 79L459 22L447 114L393 334L430 79Z" fill="#EDF5F7"/>
+  <path d="M93 181L263 250L430 79" stroke="#8EA4AF" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M93 181L202 353L263 250L344 323L430 79" stroke="#8EA4AF" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M44 300L121 241L185 411L269 367L455 420L393 334" stroke="#8EA4AF" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M43 105L122 136L44 300" stroke="#8EA4AF" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M263 250L269 367" stroke="#8EA4AF" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M430 79L459 22L393 334" stroke="#8EA4AF" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M145 169C176 177 212 193 250 224M164 246C181 271 199 299 217 329M318 204C347 165 377 126 407 87M307 314C341 335 378 361 421 389" stroke="#AABBC3" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+  <path d="M92 147C107 156 124 164 143 172M146 199C129 220 111 239 92 258M214 267C235 264 257 259 279 251M240 337C256 330 274 322 293 313M374 311C384 259 396 205 410 150" stroke="#B9C8CF" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+</svg>

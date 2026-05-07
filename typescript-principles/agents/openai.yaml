@@ -1,0 +1,6 @@
+interface:
+  display_name: "TypeScript Principles"
+  short_description: "Apply TypeScript API and naming principles"
+  default_prompt: "Use $typescript-principles to review this TypeScript change for naming, parameters, and error logging."
+policy:
+  allow_implicit_invocation: true

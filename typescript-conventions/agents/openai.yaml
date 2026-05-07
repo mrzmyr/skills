@@ -1,6 +1,0 @@
-interface:
-  display_name: "TypeScript Conventions"
-  short_description: "Apply TypeScript naming and error conventions"
-  default_prompt: "Use $typescript-conventions to review this TypeScript change for naming, parameters, and error logging."
-policy:
-  allow_implicit_invocation: true
