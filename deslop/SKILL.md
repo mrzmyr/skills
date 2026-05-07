@@ -7,3 +7,14 @@ description: Question fallbacks, regex matching, and custom code when a popular 
 - question your usage of pattern matching via regex
 - question if a very popular library for your specific case could be used rather than adding all the code yourself (e.g. oauth)
 - question your usage of type overwrites/assertions when the inferred type should be used
+
+Bad regex example:
+
+```ts
+function readOnlyQuery(query) {
+  const sql = String(query).trim().replace(/;+\s*$/, "");
+  if (!/^(select|with|explain)\b/i.test(sql)) throw new Error("read only only");
+  if (/\b(insert|update|delete|drop|alter|create)\b/i.test(sql)) throw new Error("mutating sql");
+  return sql;
+}
+```
