@@ -18,6 +18,16 @@ function maxResults(value, fallback) {
 }
 ```
 
+Good fallback example:
+
+```ts
+function maxResults(value) {
+  const n = Number(value);
+  if (!Number.isFinite(n)) throw new Error("maxResults must be a number");
+  return Math.max(1, Math.min(MAX_RESULTS, Math.trunc(n)));
+}
+```
+
 Bad regex example:
 
 ```ts
@@ -26,5 +36,15 @@ function readOnlyQuery(query) {
   if (!/^(select|with|explain)\b/i.test(sql)) throw new Error("read only only");
   if (/\b(insert|update|delete|drop|alter|create)\b/i.test(sql)) throw new Error("mutating sql");
   return sql;
+}
+```
+
+Good regex example:
+
+```ts
+async function readOnlyQuery({ bigquery, query }) {
+  const [job] = await bigquery.createQueryJob({ query, dryRun: true, useLegacySql: false });
+  if (job.metadata.statistics?.query?.statementType !== "SELECT") throw new Error("read only only");
+  return query;
 }
 ```
