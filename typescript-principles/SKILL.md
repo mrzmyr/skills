@@ -79,6 +79,46 @@ function allowed(userId: string): boolean {
 }
 ```
 
+## Function Names
+
+Function names should be short and start with an action verb. Prefer `verb + subject`.
+
+Use verbs like:
+
+- `get`
+- `set`
+- `create`
+- `update`
+- `delete`
+- `fetch`
+- `load`
+- `parse`
+- `format`
+- `increase`
+- `decrease`
+
+```ts
+getAttrs();
+increaseRetries();
+formatName();
+```
+
+Avoid noun-only or abbreviated names when the function performs an action:
+
+```ts
+baseAttr();
+retryCount();
+displayName();
+```
+
+One-word function names are allowed when the word is the complete, intentional API and reads clearly at the call site, especially for small DSL-style helpers or result builders:
+
+```ts
+success();
+error();
+text();
+```
+
 ## Local File Name Context
 
 Use the file name as naming context. Do not repeat the domain already supplied by the file path or file name unless it removes ambiguity at the call site.
