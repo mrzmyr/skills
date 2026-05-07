@@ -1,0 +1,6 @@
+interface:
+  display_name: "Deslop"
+  short_description: "Challenge brittle fallbacks and custom code"
+  default_prompt: "Use $deslop to review this implementation for brittle fallbacks, regex overuse, and unnecessary custom code."
+policy:
+  allow_implicit_invocation: true
