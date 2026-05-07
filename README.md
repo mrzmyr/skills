@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="Origami crane logo" width="180" />
+  <img src="assets/logo.png" alt="Skills logo" width="180" />
 </p>
 
 <h1 align="center">Skills</h1>
