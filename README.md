@@ -6,7 +6,7 @@
 
 ## Skills
 
-Each skill follows the Agent Skills convention: a skill directory with a `SKILL.md` file.
+[Open Plugins](https://open-plugins.com)-compatible. Skills live in `skills/` per the default discovery layout. Manifest at `.plugin/plugin.json`.
 
-- `typescript-principles`: naming, action-verb function, parameter, boolean, and error logging principles for TypeScript.
-- `deslop`: skeptical implementation review for fallbacks, regex pattern matching, and unnecessary custom code.
+- `skills/typescript-principles`: naming, action-verb function, parameter, boolean, and error logging principles for TypeScript.
+- `skills/deslop`: skeptical implementation review for fallbacks, regex pattern matching, and unnecessary custom code.

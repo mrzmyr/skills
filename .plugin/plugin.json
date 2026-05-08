@@ -1,0 +1,7 @@
+{
+  "name": "skills",
+  "version": "0.1.0",
+  "description": "Skills for TypeScript code review and skeptical implementation review.",
+  "author": "mrzmyr",
+  "skills": "skills"
+}
