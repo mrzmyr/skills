@@ -1,0 +1,11 @@
+{
+  "name": "mrzmyr-skills",
+  "description": "Skills for TypeScript code review and skeptical implementation review.",
+  "version": "0.1.0",
+  "author": {
+    "name": "mrzmyr",
+    "url": "https://github.com/mrzmyr"
+  },
+  "homepage": "https://github.com/mrzmyr/skills",
+  "repository": "https://github.com/mrzmyr/skills"
+}
