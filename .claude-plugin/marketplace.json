@@ -1,12 +1,12 @@
 {
-  "name": "mrzmyr-skills",
+  "name": "mrzmyr-plugin",
   "owner": {
     "name": "mrzmyr",
     "url": "https://github.com/mrzmyr"
   },
   "plugins": [
     {
-      "name": "mrzmyr-skills",
+      "name": "mrzmyr-plugin",
       "source": ".",
       "description": "Skills for TypeScript code review and skeptical implementation review."
     }

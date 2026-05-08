@@ -1,11 +1,11 @@
 {
-  "name": "mrzmyr-skills",
+  "name": "mrzmyr-plugin",
   "interface": {
-    "displayName": "mrzmyr Skills"
+    "displayName": "mrzmyr Plugin"
   },
   "plugins": [
     {
-      "name": "mrzmyr-skills",
+      "name": "mrzmyr-plugin",
       "source": {
         "source": "local",
         "path": "."
