@@ -10,3 +10,4 @@
 
 - `skills/typescript-principles`: naming, action-verb function, parameter, boolean, and error logging principles for TypeScript.
 - `skills/deslop`: skeptical implementation review for fallbacks, regex pattern matching, and unnecessary custom code.
+- `skills/caveman`: ultra-compressed communication mode that drops filler while preserving technical accuracy.

@@ -1,7 +1,7 @@
 {
   "name": "mrzmyr-plugin",
   "version": "0.1.0",
-  "description": "Skills for TypeScript code review and skeptical implementation review.",
+  "description": "Skills for TypeScript code review, skeptical implementation review, and terse communication.",
   "author": {
     "name": "mrzmyr",
     "url": "https://github.com/mrzmyr"
@@ -13,13 +13,14 @@
     "codex",
     "skills",
     "typescript",
-    "code-review"
+    "code-review",
+    "brevity"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "mrzmyr Plugin",
-    "shortDescription": "TypeScript principles and skeptical implementation review skills",
-    "longDescription": "Skills for applying TypeScript naming, parameter, error logging, and file-context principles, plus skeptical review of fallbacks, regex matching, custom code, and type assertions.",
+    "shortDescription": "TypeScript, deslop, and terse communication skills",
+    "longDescription": "Skills for applying TypeScript naming, parameter, error logging, and file-context principles; skeptical review of fallbacks, regex matching, custom code, and type assertions; plus ultra-compressed communication that preserves technical accuracy.",
     "developerName": "mrzmyr",
     "category": "Coding",
     "capabilities": [
@@ -32,7 +33,8 @@
     "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
     "defaultPrompt": [
       "Review this TypeScript code with typescript-principles.",
-      "Use deslop to review this implementation."
+      "Use deslop to review this implementation.",
+      "Use caveman for a terse answer."
     ],
     "brandColor": "#111111",
     "composerIcon": "./assets/logo.png",
