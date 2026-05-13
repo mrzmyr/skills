@@ -47,7 +47,7 @@ Prefer:
 const total = order.grandTotal;
 
 if (total == null) {
-  throw new Error("order.grandTotal is required");
+  // throw error
 }
 ```
 
