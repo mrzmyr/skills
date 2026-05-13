@@ -30,6 +30,33 @@ if (!EVAL_USER_EMAIL) {
 }
 ```
 
+Avoid:
+
+```ts
+const total =
+  order.grandTotal ??
+  order.articles.reduce(
+    (sum, article) => sum + Number(parseFloat(String(article?.amount)) || 0),
+    0,
+  );
+```
+
+Prefer:
+
+```ts
+const total = order.grandTotal;
+
+if (total == null) {
+  throw new Error("order.grandTotal is required");
+}
+```
+
+Only use a fallback when the compatibility case is real and known:
+
+```ts
+const total = order.grandTotal ?? order.total;
+```
+
 ## Regex Pattern Matching
 
 - Question your usage of pattern matching via regex.
