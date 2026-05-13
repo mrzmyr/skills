@@ -2,13 +2,12 @@
   <img src="assets/logo.png" alt="agent-plugin logo" width="180" />
 </p>
 
-<h1 align="center">agent-plugin</h1>
-
-<p align="center">Opinionated Claude skills for sharper agents.</p>
+<h1 align="center">Agent Plugin</h1>
+<p align="center">Opinionated skills for sharper coding agents.</p>
 
 ## Install
 
-[Open Plugins](https://open-plugins.com)-compatible. Skills live in `skills/`. Manifest at `.plugin/plugin.json`.
+`npx plugins add mrzmyr/agent-plugin`
 
 ## Skills
 
