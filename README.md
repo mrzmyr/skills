@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="assets/logo.png" alt="agent-plugin logo" width="180" />
+  <img src="assets/logo.png" alt="mrzmyr/skills logo" width="180" />
 </p>
 
-<h1 align="center">Agent Plugin</h1>
+<h1 align="center">mrzmyr/skills</h1>
 <p align="center">Opinionated skills for sharper coding agents.</p>
 
 ## Install
 
-`npx plugins add mrzmyr/agent-plugin`
+`npx plugins add mrzmyr/skills`
 
 ## Skills
 
