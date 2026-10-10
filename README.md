@@ -26,3 +26,7 @@ Write project status updates that are scannable, honest, and verifiable — with
 ### 👶 [`babysit-pr`](skills/babysit-pr)
 
 Watch a pull request until review comments, conflicts, and CI failures are handled — refreshing live state each pass, never force-pushing, never merging.
+
+### 🔎 [`increase-readibility`](skills/increase-readibility)
+
+Rewrite prose for fast skimming: bullets, nesting, bold key points, Simplified Technical English (ASD-STE100), and MoSCoW priorities (MUST, SHOULD, COULD).
